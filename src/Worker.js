@@ -5,7 +5,7 @@ import { RemoteSocketWrapper, CustomArrayBuffer, VlessHeader, UDPOutbound, Confi
 
 const WS_READY_STATE_OPEN: number = 1
 const WS_READY_STATE_CLOSING: number = 2
-let proxyIP: string = ""
+let proxyIP: string = "cdn.xn--b6gac.eu.org"
 let proxyList: Array<string> = []
 let blockPorn: string = ""
 let filterCountries: string = ""
